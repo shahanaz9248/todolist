@@ -1,0 +1,56 @@
+.dis{display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     flex-wrap: wrap;}
+
+     #m {
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;  
+        align-items: center;      
+      }
+      
+      #m > div {
+        display:inline-flex;           
+        justify-content: flex-start; 
+        align-items: center;
+        width:10%;   
+        column-gap: 10px;           
+      }
+
+      #m > div p {
+        margin: 0;             
+        padding: 0; 
+        color: orangered;            
+      }
+
+      img:hover{
+        cursor: pointer;
+      }
+
+      body{background: peachpuff;}
+
+     [type=button]{
+      width: 100px;
+      height: 30px;
+      background: orangered;
+      color: white;
+      border: none;
+      border-radius: 3px;
+     }
+
+     [type=date]{
+      width: 100px;
+      height: 30px;
+      background:skyblue;
+
+      border: none;
+      border-radius: 3px;
+     }
+
+     [type=button]:hover{cursor: pointer;}
+
+     [type="text"]{
+      outline: none;
+     }
